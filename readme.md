@@ -69,6 +69,10 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world using Go mods 
+
+
 xxx
 
 ## Hello, world
@@ -90,6 +94,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Integers
@@ -104,6 +111,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
@@ -121,6 +131,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Arrays and slices
@@ -134,6 +147,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
@@ -151,6 +167,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Pointers & errors
@@ -166,6 +185,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Maps
@@ -179,6 +201,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
@@ -197,6 +222,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Mocking
@@ -210,6 +238,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
@@ -227,6 +258,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Select
@@ -240,6 +274,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
@@ -257,6 +294,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Sync
@@ -270,6 +310,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
@@ -287,6 +330,9 @@ go run hello.go
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
 hello world
 
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
+hello world
+
 xxx
 
 ## Intro to property based tests
@@ -301,6 +347,9 @@ go run hello.go
 ```
 
 [:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
+[:ship: 27e2a58](https://github.com/arafatm/learn-go-with-tests/commit/27e2a58)
 hello world
 
 xxx
