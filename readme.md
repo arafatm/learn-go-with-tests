@@ -66,6 +66,8 @@ go program and write your first test. Sub-test syntax and closures.*
 mkdir -p $GOPATH/src/github.com/$USER/hello
 ```
 
+:fire: figured out how to build apps in a local dir instead of `$GOPATH` with modules
+
 xxx
 
 ## Integers
