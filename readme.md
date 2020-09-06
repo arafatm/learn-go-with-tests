@@ -79,6 +79,8 @@ testing
 [:ship: e1afda8](https://github.com/arafatm/learn-go-with-tests/commit/e1afda8)
 testing 2
 
+$msg
+
 xxx
 
 ## Hello, world
