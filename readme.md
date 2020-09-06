@@ -60,6 +60,15 @@ go get -u github.com/go-delve/delve/cmd/dlv
 brew install golangci/tap/golangci-lint
 ```
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Hello, world
@@ -72,6 +81,15 @@ go program and write your first test. Sub-test syntax and closures.*
 mkdir -p $GOPATH/src/github.com/$USER/hello
 ```
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Integers
@@ -79,11 +97,29 @@ xxx
 *Further Explore function declaration syntax and learn new ways to improve the
 documentation of your code.*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Iteration
 
 *Learn about for and benchmarking.*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
@@ -91,11 +127,29 @@ xxx
 
 *Learn about arrays, slices, len, varargs, range and test coverage.*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Structs, methods & interfaces
 
 *Learn about struct, methods, interface and table driven tests.*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
@@ -103,11 +157,29 @@ xxx
 
 *Learn about pointers and errors.*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Maps
 
 *Learn about storing values in the map data structure.*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
@@ -116,11 +188,29 @@ xxx
 *Learn about dependency injection, how it relates to using interfaces and a
 primer on io.*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Mocking
 
 *Take some existing untested code and use DI with mocking to test it.*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
@@ -128,11 +218,29 @@ xxx
 
 *Learn how to write concurrent code to make your software faster.*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Select
 
 *Learn how to synchronise asynchronous processes elegantly.*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
@@ -140,11 +248,29 @@ xxx
 
 *Learn about reflection*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Sync
 
 *Learn some functionality from the sync package including WaitGroup and Mutex*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
@@ -152,12 +278,30 @@ xxx
 
 *Use the context package to manage and cancel long-running processes*
 
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
+
 xxx
 
 ## Intro to property based tests
 
 *Practice some TDD with the Roman Numerals kata and get a brief intro to
 property based tests*
+
+[:ship: 700dc62](https://github.com/arafatm/learn-go-with-tests/commit/700dc62)
+hello world
+```bash
+go run hello.go
+```
+
+[:ship: 1c3e6d4](https://github.com/arafatm/learn-go-with-tests/commit/1c3e6d4)
+hello world
 
 xxx
 
