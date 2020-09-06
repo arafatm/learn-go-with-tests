@@ -68,6 +68,10 @@ mkdir -p $GOPATH/src/github.com/$USER/hello
 
 :fire: figured out how to build apps in a local dir instead of `$GOPATH` with modules
 
+[:ship: 23ebc5c](https://github.com/arafatm/learn-go-with-tests/commit/23ebc5c)
+Our first test
+- `t.Errorf` fails test and prints a message
+
 xxx
 
 ## Integers
@@ -146,5 +150,11 @@ property based tests*
 ## Maths
 
 *Use the math package to draw an SVG clock*
+
+[:ship: 23ebc5c](https://github.com/arafatm/learn-go-with-tests/commit/23ebc5c)
+Our first test
+
+[:ship: 0d78a8e](https://github.com/arafatm/learn-go-with-tests/commit/0d78a8e)
+test
 
 xxx
