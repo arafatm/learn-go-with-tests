@@ -72,6 +72,16 @@ mkdir -p $GOPATH/src/github.com/$USER/hello
 Our first test
 - `t.Errorf` fails test and prints a message
 
+### Go Docs
+
+Run Go docs
+```bash
+godoc -http :8000
+```
+
+- http://localhost:8000/pkg  to see installed packages
+- http://localhost:8000/pkg/testing/ to see testing package
+
 xxx
 
 ## Integers
