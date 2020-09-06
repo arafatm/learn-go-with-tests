@@ -66,10 +66,6 @@ go program and write your first test. Sub-test syntax and closures.*
 mkdir -p $GOPATH/src/github.com/$USER/hello
 ```
 
-```bash
-go run hello.go
-```
-
 xxx
 
 ## Integers
@@ -77,115 +73,73 @@ xxx
 *Further Explore function declaration syntax and learn new ways to improve the
 documentation of your code.*
 
-```bash
-go run hello.go
-```
 
 ## Iteration
 
 *Learn about for and benchmarking.*
 
-```bash
-go run hello.go
-```
 
 ## Arrays and slices
 
 *Learn about arrays, slices, len, varargs, range and test coverage.*
 
-```bash
-go run hello.go
-```
 
 ## Structs, methods & interfaces
 
 *Learn about struct, methods, interface and table driven tests.*
 
-```bash
-go run hello.go
-```
 
 ## Pointers & errors
 
 *Learn about pointers and errors.*
 
-```bash
-go run hello.go
-```
 
 ## Maps
 
 *Learn about storing values in the map data structure.*
 
-```bash
-go run hello.go
-```
 
 ## Dependency Injection
 
 *Learn about dependency injection, how it relates to using interfaces and a
 primer on io.*
 
-```bash
-go run hello.go
-```
 
 ## Mocking
 
 *Take some existing untested code and use DI with mocking to test it.*
 
-```bash
-go run hello.go
-```
 
 ## Concurrency
 
 *Learn how to write concurrent code to make your software faster.*
 
-```bash
-go run hello.go
-```
 
 ## Select
 
 *Learn how to synchronise asynchronous processes elegantly.*
 
-```bash
-go run hello.go
-```
 
 ## Reflection
 
 *Learn about reflection*
 
-```bash
-go run hello.go
-```
 
 ## Sync
 
 *Learn some functionality from the sync package including WaitGroup and Mutex*
 
-```bash
-go run hello.go
-```
 
 ## Context
 
 *Use the context package to manage and cancel long-running processes*
 
-```bash
-go run hello.go
-```
 
 ## Intro to property based tests
 
 *Practice some TDD with the Roman Numerals kata and get a brief intro to
 property based tests*
 
-```bash
-go run hello.go
-```
 
 ## Maths
 
