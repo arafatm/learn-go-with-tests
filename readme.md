@@ -178,11 +178,37 @@ really pay off over time.
 
 *Learn about arrays, slices, len, varargs, range and test coverage.*
 
-xxx
+### Array
+
+[:ship: 21e9528](https://github.com/arafatm/learn-go-with-tests/commit/21e9528)
+Iterating over an array
+
+### Range
+
+[:ship: 0fdb6dd](https://github.com/arafatm/learn-go-with-tests/commit/0fdb6dd)
+Iterating over an array with [range](https://gobyexample.com/range)
+
+:flashlight: Integers in Go encode the size in the declaration eg. `[4]int` for
+an array holding 4 integers
+
+### Slice
+
+For dynamic size arrays use [slice](https://golang.org/doc/effective_go.html#slices) instead
+
+[:ship: a3b01eb](https://github.com/arafatm/learn-go-with-tests/commit/a3b01eb)
+Use a Slice instead of an Array
+
+[:ship: 6dcb276](https://github.com/arafatm/learn-go-with-tests/commit/6dcb276)
+Summing multiple arrays with [variadic functions](https://gobyexample.com/variadic-functions)
+- Have to use [reflect.DeepEqual](https://golang.org/pkg/reflect/#DeepEqual)
+
+:fire: There's more exercises in this chapter I skipped
 
 ## Structs, methods & interfaces
 
 *Learn about struct, methods, interface and table driven tests.*
+
+xxx
 
 ## Pointers & errors
 
