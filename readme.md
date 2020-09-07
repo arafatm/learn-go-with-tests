@@ -136,13 +136,49 @@ go-linter wants functions to have comment describing them
 
 *Learn about for and benchmarking.*
 
+### `for` loops
+
 In Go there are **no while, do, until** keywords, you can only use `for`
 
-xxx
+:fire: `:=` is shorthand for declare and initialize. These 2 are the same:
+- `i := 5`
+- `var i int; i = 5`
+
+[:ship: ddf8062](https://github.com/arafatm/learn-go-with-tests/commit/ddf8062)
+Iterating with `for`
+
+### `+=` assignment
+
+[:ship: 5b85a7c](https://github.com/arafatm/learn-go-with-tests/commit/5b85a7c)
+refactor with `+=` assignment
+
+### Benchmarking
+
+Go has built in benchmarking with `func BenchmarkMyFunc(b *testing.B)`
+
+[:ship: 612097b](https://github.com/arafatm/learn-go-with-tests/commit/612097b)
+Benchmark the Repeat func
+
+Run it with `go test -bench=.`
+
+### Practice exercises
+
+[:ship: 2670235](https://github.com/arafatm/learn-go-with-tests/commit/2670235)
+Change the test so a caller can specify how many times the character is repeated and then fix the code
+
+[:ship: b68517e](https://github.com/arafatm/learn-go-with-tests/commit/b68517e)
+Write ExampleRepeat to document your function
+
+Have a look through the [strings package](https://golang.org/pkg/strings/).
+Find functions you think could be useful and experiment with them by writing
+tests like we have here. Investing time learning the standard library will
+really pay off over time.
 
 ## Arrays and slices
 
 *Learn about arrays, slices, len, varargs, range and test coverage.*
+
+xxx
 
 ## Structs, methods & interfaces
 
