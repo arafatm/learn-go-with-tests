@@ -2,6 +2,7 @@ package learngowithtests
 
 import "testing"
 import "fmt"
+import "reflect"
 
 // TODO: Why does this work but not the Example in adder_test.go
 func ExampleSum() {
@@ -23,4 +24,16 @@ func TestSum(t *testing.T) {
 		}
 	})
 
+}
+
+func TestSumAll(t *testing.T) {
+
+	got := SumAll([]int{1, 2}, []int{0, 9})
+	want := []int{3, 9}
+
+	// if got != want {
+	// This won't work, have to use reflect.DeepEqual instead
+	if !reflect.DeepEqual(got, want) {
+		t.Errorf("got %v want %v", got, want)
+	}
 }
