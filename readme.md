@@ -61,12 +61,16 @@ brew install golangci/tap/golangci-lint
 *Declaring variables, constants, if/else statements, switch, write your first
 go program and write your first test. Sub-test syntax and closures.*
 
+### First App
+
 :shipit: Go apps need to live in [`$GOPATH`](https://golang.org/doc/gopath_code.html)?
 ```bash
 mkdir -p $GOPATH/src/github.com/$USER/hello
 ```
 
 :fire: figured out how to build apps in a local dir instead of `$GOPATH` with modules
+
+### First Test
 
 [:ship: 23ebc5c](https://github.com/arafatm/learn-go-with-tests/commit/23ebc5c)
 Our first test
@@ -82,89 +86,103 @@ godoc -http :8000
 - http://localhost:8000/pkg  to see installed packages
 - http://localhost:8000/pkg/testing/ to see testing package
 
-xxx
+### Args & constants
 
-## Integers
+[:ship: 58a84c9](https://github.com/arafatm/learn-go-with-tests/commit/58a84c9)
+method arguments
+
+[:ship: 86a5030](https://github.com/arafatm/learn-go-with-tests/commit/86a5030)
+Using constants `const englishHelloPrefix = Hello, `
+
+[:ship: be312af](https://github.com/arafatm/learn-go-with-tests/commit/be312af)
+Go does not have default values for method args
+
+### Test Helpers
+
+[:ship: 79c79e9](https://github.com/arafatm/learn-go-with-tests/commit/79c79e9)
+refactor tests with a `t.Helper()`
+
+### Switch statement
+
+[:ship: 803e3f4](https://github.com/arafatm/learn-go-with-tests/commit/803e3f4)
+Add language support with `if` statements
+
+[:ship: 5e3e90f](https://github.com/arafatm/learn-go-with-tests/commit/5e3e90f)
+refactor `if` statements with `switch`
+
+## Examples
 
 *Further Explore function declaration syntax and learn new ways to improve the
 documentation of your code.*
 
+:neckbeard: I'm using the suggestions for setting up Go projects here
+https://dave.cheney.net/2014/12/01/five-suggestions-for-setting-up-a-go-project.
+Note the `package` and `module` declarations.
+
+[:ship: 184e090](https://github.com/arafatm/learn-go-with-tests/commit/184e090)
+First `adder` and experiment with Go package and module naming
+
+[:ship: 0d3913e](https://github.com/arafatm/learn-go-with-tests/commit/0d3913e)
+sample `Example` that can be verified by running `godoc`
+- [Examples](https://blog.golang.org/examples) are testable code blocks that
+  can be displayed as **package documentation**
 
 ## Iteration
 
 *Learn about for and benchmarking.*
 
+xxx
 
 ## Arrays and slices
 
 *Learn about arrays, slices, len, varargs, range and test coverage.*
 
-
 ## Structs, methods & interfaces
 
 *Learn about struct, methods, interface and table driven tests.*
-
 
 ## Pointers & errors
 
 *Learn about pointers and errors.*
 
-
 ## Maps
 
 *Learn about storing values in the map data structure.*
-
 
 ## Dependency Injection
 
 *Learn about dependency injection, how it relates to using interfaces and a
 primer on io.*
 
-
 ## Mocking
 
 *Take some existing untested code and use DI with mocking to test it.*
-
 
 ## Concurrency
 
 *Learn how to write concurrent code to make your software faster.*
 
-
 ## Select
 
 *Learn how to synchronise asynchronous processes elegantly.*
-
 
 ## Reflection
 
 *Learn about reflection*
 
-
 ## Sync
 
 *Learn some functionality from the sync package including WaitGroup and Mutex*
 
-
 ## Context
 
 *Use the context package to manage and cancel long-running processes*
-
 
 ## Intro to property based tests
 
 *Practice some TDD with the Roman Numerals kata and get a brief intro to
 property based tests*
 
-
 ## Maths
 
 *Use the math package to draw an SVG clock*
-
-[:ship: 23ebc5c](https://github.com/arafatm/learn-go-with-tests/commit/23ebc5c)
-Our first test
-
-[:ship: 0d78a8e](https://github.com/arafatm/learn-go-with-tests/commit/0d78a8e)
-test
-
-xxx
