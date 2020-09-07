@@ -3,8 +3,9 @@ package learngowithtests
 import "testing"
 
 func TestRepeat(t *testing.T) {
-	repeated := Repeat("a")
-	expected := "aaaaa"
+	const repeatCount = 7
+	repeated := Repeat("ab", repeatCount)
+	expected := "ababababababab"
 
 	if repeated != expected {
 		t.Errorf("expected %q but got %q", expected, repeated)
@@ -13,6 +14,6 @@ func TestRepeat(t *testing.T) {
 
 func BenchmarkRepeat(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		Repeat("a")
+		Repeat("a", 9)
 	}
 }

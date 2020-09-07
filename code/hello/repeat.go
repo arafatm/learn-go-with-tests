@@ -1,9 +1,7 @@
 package learngowithtests
 
-const repeatCount = 5
-
 // Repeat a string 5 times
-func Repeat(input string) string {
+func Repeat(input string, repeatCount int) string {
 	var repeated string
 	for i := 0; i < repeatCount; i++ {
 		repeated += input
