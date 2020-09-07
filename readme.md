@@ -127,6 +127,8 @@ sample `Example` that can be verified by running `godoc`
 - [Examples](https://blog.golang.org/examples) are testable code blocks that
   can be displayed as **package documentation**
 
+You can also `go test -v` to run the tests and examples 
+
 ## Iteration
 
 *Learn about for and benchmarking.*
