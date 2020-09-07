@@ -1,6 +1,7 @@
 package learngowithtests
 
 import "testing"
+import "fmt"
 
 func TestRepeat(t *testing.T) {
 	const repeatCount = 7
@@ -10,6 +11,11 @@ func TestRepeat(t *testing.T) {
 	if repeated != expected {
 		t.Errorf("expected %q but got %q", expected, repeated)
 	}
+}
+
+func ExampleRepeat() {
+	fmt.Println(Repeat("ab", 3))
+	// Output: ababab
 }
 
 func BenchmarkRepeat(b *testing.B) {
