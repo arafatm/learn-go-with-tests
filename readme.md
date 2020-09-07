@@ -129,9 +129,14 @@ sample `Example` that can be verified by running `godoc`
 
 You can also `go test -v` to run the tests and examples 
 
+[:ship: 0b5ef61](https://github.com/arafatm/learn-go-with-tests/commit/0b5ef61)
+go-linter wants functions to have comment describing them
+
 ## Iteration
 
 *Learn about for and benchmarking.*
+
+In Go there are **no while, do, until** keywords, you can only use `for`
 
 xxx
 
