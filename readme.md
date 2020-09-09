@@ -208,6 +208,20 @@ Summing multiple arrays with [variadic functions](https://gobyexample.com/variad
 
 *Learn about struct, methods, interface and table driven tests.*
 
+Want to write a function to calculate `Perimeter(width float64, height float64)`
+
+[:ship: d6ca749](https://github.com/arafatm/learn-go-with-tests/commit/d6ca749)
+Using `float64`, `Perimeter` func and test
+
+[:ship: 9172b4e](https://github.com/arafatm/learn-go-with-tests/commit/9172b4e)
+Rename `perimeter.go` to `shapes.go`
+
+[:ship: e029b23](https://github.com/arafatm/learn-go-with-tests/commit/e029b23)
+func Area
+
+[:ship: ced1f83](https://github.com/arafatm/learn-go-with-tests/commit/ced1f83)
+Using `type Rectangle struct`
+
 xxx
 
 ## Pointers & errors
