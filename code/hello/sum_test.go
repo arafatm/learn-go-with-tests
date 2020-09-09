@@ -4,11 +4,10 @@ import "testing"
 import "fmt"
 import "reflect"
 
-// TODO: Why does this work but not the Example in adder_test.go
 func ExampleSum() {
 	sum := Sum([]int{1, 2, 3, 4, 5})
 	fmt.Println(sum)
-	// Output 13
+	// Output: 15
 }
 
 func TestSum(t *testing.T) {
