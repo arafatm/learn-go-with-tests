@@ -222,7 +222,8 @@ func Area
 [:ship: ced1f83](https://github.com/arafatm/learn-go-with-tests/commit/ced1f83)
 Using `type Rectangle struct`
 
-xxx
+[:ship: 0bb9eec](https://github.com/arafatm/learn-go-with-tests/commit/0bb9eec)
+https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/pointers-and-errors
 
 ## Pointers & errors
 
