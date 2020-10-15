@@ -11,19 +11,19 @@ type Circle struct {
 	radius float64
 }
 
-func Perimeter(rectangle Rectangle) float64 {
+func (rectangle Rectangle) Perimeter() float64 {
 	return 2 * (rectangle.width + rectangle.height)
 	// test
 }
 
-func Area(rectangle Rectangle) float64 {
+func (rectangle Rectangle) Area() float64 {
 	return rectangle.width * rectangle.height
 }
 
-func Area(circle Circle) float64 {
+func (circle Circle) Area() float64 {
 	return circle.radius * circle.radius * math.Pi
 }
 
-func Perimeter(circle Circle) float64 {
+func (circle Circle) Perimeter() float64 {
 	return circle.radius * 2 * math.Pi
 }
