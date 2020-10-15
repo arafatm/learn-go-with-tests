@@ -10,7 +10,7 @@ func ExamplePerimeterRectangle() {
 
 func ExampleAreaRectangle() {
 	r := Rectangle{12, 6}
-	fmt.Println(r.Area())
+	fmt.Println(CheckArea(r))
 	// Output: 72
 }
 func ExamplePerimeterCircle() {
@@ -21,6 +21,12 @@ func ExamplePerimeterCircle() {
 
 func ExampleAreaCircle() {
 	c := Circle{10}
-	fmt.Println(c.Area())
+	fmt.Println(CheckArea(c))
 	// Output: 314.1592653589793
 }
+
+func CheckArea(shape.Shape) {
+	shape.Area
+}
+ 
+  
