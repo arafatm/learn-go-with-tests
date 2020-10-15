@@ -19,5 +19,9 @@ func Area(rectangle Rectangle) float64 {
 }
 
 func (c Circle) Area() float64 {
-	return 0
+	return circle.radius * circle.radius * 3.14
+}
+
+func (c Circle) Perimeter() float64 {
+	return circle.radius * 2 * 3.14
 }
