@@ -27,3 +27,8 @@ func ExampleAreaRectangle() {
 	fmt.Println(checkArea(Rectangle{12, 6}))
 	// Output: 72
 }
+
+func ExampleAreaTriangle() {
+	fmt.Println(checkArea(Triangle{10, 5}))
+        // Output: 25
+} 
