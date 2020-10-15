@@ -18,4 +18,6 @@ func Area(rectangle Rectangle) float64 {
 	return rectangle.width * rectangle.height
 }
 
-
+func (c Circle) Area() float64 {
+	return 0
+}
