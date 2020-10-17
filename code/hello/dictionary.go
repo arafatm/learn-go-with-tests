@@ -10,5 +10,6 @@ func (d Dictionary) Search(word string) (string, error) {
 	if !ok {
 		return "", errors.New("could not find the word you were looking for")
 	}
+
 	return definition, nil
 }
