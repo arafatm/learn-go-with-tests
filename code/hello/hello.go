@@ -24,6 +24,6 @@ func Hello(name string, lang string) string {
 	return prefix + name
 }
 
-func main() {
+func mainHello() {
 	fmt.Println(Hello("", ""))
 }
