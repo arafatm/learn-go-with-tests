@@ -14,10 +14,21 @@ type Sleeper interface {
 	Sleep()
 }
 
+type SpyTime struct {
+	durationSlept time.Duration
+}
+
+func (s *SpyTime) Sleep(duration time.Duration) {
+	s.durationSlept = duration
+}
+
 type DefaultSleeper struct{}
 
 func (d *DefaultSleeper) Sleep() {
 	time.Sleep(1 * time.Second)
+}
+
+func (c *ConfigurableSleeper) Sleep() {
 }
 
 func Countdown(out io.Writer, sleeper Sleeper) {
