@@ -17,9 +17,6 @@ func Racer(a, b string) (winner string) {
 	resp, err := http.Get(b)
 	bDuration := time.Since(startB)
 
-	fmt.Printf("\nresp = %v\n", resp)
-	fmt.Printf("\nerr = %v\n", err)
-
 	robots, err := ioutil.ReadAll(resp.Body)
 
 	resp.Body.Close()
