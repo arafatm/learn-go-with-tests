@@ -4,7 +4,7 @@ import "testing"
 
 func TestRacer(t *testing.T) {
 	slowURL := "http://www.facebook.com"
-	fastURL := "http://www.quii.co.uk"
+	fastURL := "http://quii.gitbook.io"
 
 	want := fastURL
 	got := Racer(slowURL, fastURL)
