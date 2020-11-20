@@ -6,25 +6,19 @@ import "net/http"
 import "net/http/httptest"
 
 func TestRacer(t *testing.T) {
-	
-	slowServer := makeDelayedServer(20)
-	fastServer := makeDelayedServer(0)
+t.Run("returns an error if a server doesn't respond within 10s", func(t *testing.T) {
+	serverA := makeDelayedServer(11000)
+	serverB := makeDelayedServer(12000)
 
-	defer slowServer.Close()
-	defer fastServer.Close()
+	defer serverA.Close()
+	defer serverB.Close()
 
-	slowURL := slowServer.URL
-	fastURL := fastServer.URL
+	_, err := Racer(serverA.URL, serverB.URL)
 
-	want := fastURL
-	got := Racer(slowURL, fastURL)
-
-	if got != want {
-		t.Errorf("got %q, want %q", got, want)
+	if err == nil {
+		t.Error("expected an error but didn't get one")
 	}
-
-	slowServer.Close()
-	fastServer.Close()
+})
 }
 
 func makeDelayedServer(delay time.Duration) *httptest.Server {
@@ -33,3 +27,4 @@ func makeDelayedServer(delay time.Duration) *httptest.Server {
 		w.WriteHeader(http.StatusOK)
 	}))
 }
+
