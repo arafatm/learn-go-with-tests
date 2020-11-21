@@ -1,28 +1,28 @@
 package main
 
 import (
-	"testing"
-	"reflect"
 	"fmt"
+	"reflect"
+	"testing"
 )
 
 type Person struct {
-	Name string
+	Name    string
 	Profile Profile
 }
 
 type Profile struct {
-	Age int
+	Age  int
 	City string
 }
 
 func TestWalk(t *testing.T) {
 
-	cases := []struct{
-		Name string
-		Input interface{}
+	cases := []struct {
+		Name          string
+		Input         interface{}
 		ExpectedCalls []string
-	} {
+	}{
 		{
 			"Struct with one string filed",
 			struct {
@@ -39,10 +39,10 @@ func TestWalk(t *testing.T) {
 			[]string{"Chris", "London"},
 		},
 		{
-			"String with non string field",
+			"Struct with string & int fields",
 			struct {
 				Name string
-				Age int
+				Age  int
 			}{"Chris", 33},
 			[]string{"Chris"},
 		},
@@ -54,15 +54,24 @@ func TestWalk(t *testing.T) {
 			},
 			[]string{"Chris", "London"},
 		},
+		{
+			"Pointers to things",
+			&Person{
+				"Chris",
+				Profile{33, "Madrid"},
+			},
+			[]string{"Chris", "Madrid"},
+		},
 	}
 
 	for _, test := range cases {
 		t.Run(test.Name, func(t *testing.T) {
 			fmt.Printf("test.Name = %v\n", test.Name)
 			var got []string
-			walk(test.Input, func(input string) {
-				got = append(got, input)
-			})
+			walk(test.Input,
+				func(input string) {
+					got = append(got, input)
+				})
 
 			if !reflect.DeepEqual(got, test.ExpectedCalls) {
 				t.Errorf("got %v, want %v", got, test.ExpectedCalls)
