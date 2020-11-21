@@ -62,6 +62,7 @@ func TestWalk(t *testing.T) {
 			},
 			[]string{"Chris", "Madrid"},
 		},
+		// TODO: https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/reflection#write-the-test-first-6
 	}
 
 	for _, test := range cases {
